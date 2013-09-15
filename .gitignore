@@ -4,10 +4,20 @@
 .config
 Gemfile.lock
 coverage
-doc/
+InstalledFiles
+lib/bundler/man
 pkg
 rdoc
+spec/reports
+test/tmp
+test/version_tmp
 tmp
-.idea/
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+
+# emacs
 *.*~
 *~
