@@ -1,0 +1,13 @@
+*.gem
+*.rbc
+.bundle
+.config
+Gemfile.lock
+coverage
+doc/
+pkg
+rdoc
+tmp
+.idea/
+*.*~
+*~
