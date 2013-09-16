@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["Masaaki Isozu"]
   gem.email         = ["m.isozu@gmail.com"]
   gem.license       = 'MIT'
-  gem.description   = %q{A Google using access-token strategy for OmniAuth. Can be used for client side Google login. }
+  gem.description   = %q{A Google OAuth2 using access-token strategy for OmniAuth. Can be used for client side Google login. }
   gem.summary       = %q{A Google OAuth2 using access-token strategy for OmniAuth.}
   gem.homepage      = "https://github.com/isozu/omniauth-google-oauth2-access-token"
 
