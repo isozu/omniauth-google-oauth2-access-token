@@ -91,18 +91,6 @@ module OmniAuth
 
         # TODO: Validate the token
 
-        # Validate that the token belong to the application
-#         Rails.logger.info "---------------bef"
-#         Rails.logger.info self.access_token.get('/app')
-#         Rails.logger.info "---------------af"
-#         app_raw = self.access_token.get('/app').parsed
-#         Rails.logger.info "---------------2nd"
-#         Rails.logger.info app_raw
-#         if app_raw["id"] != options.client_id.to_s          
-#           Rails.logger.info "client_id=#{options.client_id}"
-#           raise ArgumentError.new("Access token doesn't belong to the client.")
-#         end
-
         # Preserve compatibility with the google provider in normal case
         hash = auth_hash
         hash[:provider] = "google"
